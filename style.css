@@ -1,108 +1,225 @@
-body{
-    background:#061b30b2 url(./pexels-jean-van-der-meulen-1457842.jpg);
-    
-background-size: cover;
-background-blend-mode: darken;
+body {
+    background: #061b30b2 url(./pexels-jean-van-der-meulen-1457842.jpg);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-blend-mode: darken;
 }
-.header{
+
+.header {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2vw;
+
+    justify-content: space-around;
     color: #ffffff;
 }
-.logo{
-    margin: 40px;
-    font-size: 40px;
+
+.logo {
+
+    font-size: 1.7vw;
     font-weight: bold;
 }
-.navbar{
-    margin-top: 60px;
-   
-   margin-left: 70px;
+
+.nav-mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
- a{
-    margin-top: 40px;
-    margin-left: 100px;
-    font-size: 23px;
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+
+a {
+
+    font-size: 1.5vw;
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
-    margin-bottom: -156px;
-}
-.header img{
-   
-   position: relative;
-   bottom: -20px;
-}
-hr{
-    width: 1400px;
-    position: relative;
-    left: 130px;
-   margin-top: -50px;
-}
-.contact{
-    margin-top: 27px;
 
 }
-div h1{
+
+.contact-detail {
+    align-items: center;
+    justify-content: space-between;
     display: flex;
-    flex-wrap: wrap;
-    font-size: 60px;
-    color: #ffffff;
-    margin-top: 230px;
-    margin-left: 160px;
+    flex-direction: row;
+    gap: 1vw;
 }
-div button{
-    margin-left: 150px;
-    block-size: 50px;
-    padding-left: 40px;
-    padding-right: 40px;
+
+
+hr {
+    width: 40vw;
+}
+
+.bar-solid {
+
+    display: none;
+    visibility: hidden;
+}
+
+.contact {
+    font-size: 1.2vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2vw;
+    margin-top: 8vw;
+
+}
+
+.interior h1 {
+    font-size: 3.7vw;
+    color: #ffffff;
+
+}
+
+div button {
+
+    padding: 0.7vw 2vw;
     border-radius: 25px;
     background: transparent;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 1vw;
+    font-weight: 900;
 }
-.icon{
+
+.icon {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-   align-items: flex-end;
-   margin-top: -380px;
-   
-}
-.icon1{
-    background-color: rgba(255,255,255,0.356);
-    position: relative;
-    left: -170px;
-    padding: 10px;
-    top: 50px;
-    
-} 
-.icon1 img{
-    position: relative;
-    left: 100px;
+    gap: 3vw;
+
+    width: 40vw;
+
 }
 
-.icon1 p{
-    position: relative;
-    left: 100px;
-    top: -30px;
-    color: #ffffff;
+.icon1 {
+    background-color: rgba(255, 255, 255, 0.356);
+    display: flex;
+    flex-direction: column;
+    width: 17vw;
+    height: 10vw;
+    align-items: center;
 }
-.icon2{
-    background-color: rgba(255,255,255,0.356);
-    position: relative;
-    left: -600px;
-  top: 80px;
-     padding: 5px;
+
+.icon1 img {
+    margin-top: 2vw;
+
+    width: 4vw;
 }
-.icon2 img{
-    position: relative;
-    left: -40px;
-} 
-.icon2 p{
-    position: relative;
-    left: 100px;
-    top: -30px;
+
+.top {
+    margin-left: 20vw;
+}
+
+.icon1 p {
+    font-size: 0.8vw;
+    font-weight: 800;
     color: #ffffff;
 }
 
+@media screen and (max-width:1100px) {
+    body {
+        background: #061b30b2 url(./pexels-jean-van-der-meulen-1457842\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+
+
+    .header {
+        padding: 0vw 2vw;
+        justify-content: space-between;
+
+    }
+
+    .logo {
+
+        font-size: 4vw;
+
+    }
+
+    .nav-mid {
+        display: none;
+        visibility: hidden;
+    }
+
+
+    .contact-detail {
+        display: none;
+        visibility: hidden;
+    }
+
+
+    .bar-solid {
+        width: 5vw;
+
+        display: block;
+        visibility: visible;
+    }
+
+    .container {
+
+        padding: 10vw;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+
+    }
+
+    .interior h1 {
+        font-size: 16vw;
+
+
+    }
+
+    div button {
+
+        padding: 5vw 6vw;
+        border-radius: 6vw;
+
+        font-size: 5vw;
+
+    }
+
+    .icon {
+        align-items: center;
+
+        width: 100vw;
+
+    }
+
+    .icon1 {
+        margin-top: 10vw;
+        padding: 10vw;
+        width: 60vw;
+        height: 60vw;
+        align-items: center;
+    }
+
+    .icon1 img {
+        margin-top: 15vw;
+
+        width: 15vw;
+    }
+
+    .top {
+        margin-left: 0vw;
+    }
+
+    .icon1 p {
+        font-size: 5vw;
+        font-weight: 800;
+        color: #ffffff;
+    }
+}
