@@ -4,7 +4,7 @@
 
 ## PROJECT NAME
 
-### Design Landing Page
+### Interior Design Landing Page
 
 ## About
 
